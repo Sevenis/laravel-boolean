@@ -34,7 +34,7 @@ $students = [
         'descrizione' => 'Dopo la laurea magistrale in scienze umanistiche e sociali, si concentra sullo sviluppo di strategie marketing. Decide di cambiare vita, questa volta puntando sullo sviluppo Front-End.'
     ],
     [
-        'img' => 'https://www.boolean.careers/images/people/davide.png',
+        'img' => 'https://www.boolean.careers/images/people/quarticelli.png',
         'nome' => 'Simone Quarticelli',
         'anni' => 32,
         'azienda' => 'VLC 2',
