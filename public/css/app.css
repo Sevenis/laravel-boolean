@@ -10924,30 +10924,36 @@ main {
 }
 
 main .card-group {
-  padding: 10px;
+  width: 1000px;
+  display: block;
   margin: 0 auto;
-  display: inline-block;
   background-color: red;
 }
 
 main .card-group .card {
-  width: 270px;
-  height: 300px;
-  margin: 5px;
+  width: 300px;
+  height: 270px;
   float: left;
+}
+
+main .card-group .card .img-student {
+  display: flex;
+  align-items: center;
 }
 
 main .card-group .card .img-student img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  display: inline-block;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
 main .card-group .card .img-student h3 {
-  font-size: 10px;
+  font-size: 15px;
   color: #0cd977;
   text-transform: uppercase;
+  padding-left: 10px;
 }
 
 main .card-group .card h4 {
