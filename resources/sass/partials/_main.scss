@@ -1,4 +1,10 @@
 // Main Studenti
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 main {
     width: 100vw;
 
@@ -9,11 +15,17 @@ main {
         background-color: red;
 
 
+
         .card {
             width: 300px;
             height: 270px;
+            margin-right: 50px;
+            margin-bottom: 50px;
             float: left;
 
+            &:nth-child(3n) {
+                margin-right: 0;
+            }
 
             .img-student{
                 display: flex;
@@ -33,6 +45,10 @@ main {
                     color: #0cd977;
                     text-transform: uppercase;
                     padding-left: 10px;
+                }
+
+                .card-title {
+                    margin: 0 !important;
                 }
             }
 

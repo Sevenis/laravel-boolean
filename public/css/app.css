@@ -10919,6 +10919,12 @@ body {
   background-color: #daedf3;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 main {
   width: 100vw;
 }
@@ -10933,7 +10939,13 @@ main .card-group {
 main .card-group .card {
   width: 300px;
   height: 270px;
+  margin-right: 50px;
+  margin-bottom: 50px;
   float: left;
+}
+
+main .card-group .card:nth-child(3n) {
+  margin-right: 0;
 }
 
 main .card-group .card .img-student {
@@ -10954,6 +10966,10 @@ main .card-group .card .img-student h3 {
   color: #0cd977;
   text-transform: uppercase;
   padding-left: 10px;
+}
+
+main .card-group .card .img-student .card-title {
+  margin: 0 !important;
 }
 
 main .card-group .card h4 {

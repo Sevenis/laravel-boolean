@@ -3,7 +3,7 @@
 @section('titolo', 'Studenti')
 
 @section('content')
-    <div class="card-group">
+    <div class="card-group clearfix">
 
           <div class="card">
             <div class="img-student">
